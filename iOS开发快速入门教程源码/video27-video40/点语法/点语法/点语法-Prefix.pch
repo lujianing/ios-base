@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '点语法' target in the '点语法' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

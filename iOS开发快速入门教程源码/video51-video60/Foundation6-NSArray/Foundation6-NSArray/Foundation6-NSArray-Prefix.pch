@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Foundation6-NSArray' target in the 'Foundation6-NSArray' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

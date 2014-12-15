@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Foundation4-NSString其他用法' target in the 'Foundation4-NSString其他用法' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

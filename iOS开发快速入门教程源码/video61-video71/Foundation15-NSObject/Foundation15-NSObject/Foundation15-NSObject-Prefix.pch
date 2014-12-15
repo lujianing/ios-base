@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Foundation15-NSObject' target in the 'Foundation15-NSObject' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180E2EBD17115B80003C90D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E2EBC17115B80003C90D3 /* UIKit.framework */; };
+		180E2EBF17115B80003C90D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E2EBE17115B80003C90D3 /* Foundation.framework */; };
+		180E2EC117115B80003C90D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E2EC017115B80003C90D3 /* CoreGraphics.framework */; };
+		180E2EC717115B80003C90D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180E2EC517115B80003C90D3 /* InfoPlist.strings */; };
+		180E2EC917115B80003C90D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E2EC817115B80003C90D3 /* main.m */; };
+		180E2ECD17115B80003C90D3 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E2ECC17115B80003C90D3 /* MJAppDelegate.m */; };
+		180E2ECF17115B80003C90D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 180E2ECE17115B80003C90D3 /* Default.png */; };
+		180E2ED117115B80003C90D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180E2ED017115B80003C90D3 /* Default@2x.png */; };
+		180E2ED317115B80003C90D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180E2ED217115B80003C90D3 /* Default-568h@2x.png */; };
+		180E2ED617115B80003C90D3 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E2ED517115B80003C90D3 /* MJViewController.m */; };
+		180E2ED917115B80003C90D3 /* MJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180E2ED717115B80003C90D3 /* MJViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180E2EB817115B80003C90D3 /* 第一个iOS程序.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第一个iOS程序.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180E2EBC17115B80003C90D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180E2EBE17115B80003C90D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180E2EC017115B80003C90D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180E2EC417115B80003C90D3 /* 第一个iOS程序-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "第一个iOS程序-Info.plist"; sourceTree = "<group>"; };
+		180E2EC617115B80003C90D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180E2EC817115B80003C90D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180E2ECA17115B80003C90D3 /* 第一个iOS程序-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "第一个iOS程序-Prefix.pch"; sourceTree = "<group>"; };
+		180E2ECB17115B80003C90D3 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		180E2ECC17115B80003C90D3 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		180E2ECE17115B80003C90D3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		180E2ED017115B80003C90D3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		180E2ED217115B80003C90D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		180E2ED417115B80003C90D3 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		180E2ED517115B80003C90D3 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		180E2ED817115B80003C90D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MJViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180E2EB517115B80003C90D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E2EBD17115B80003C90D3 /* UIKit.framework in Frameworks */,
+				180E2EBF17115B80003C90D3 /* Foundation.framework in Frameworks */,
+				180E2EC117115B80003C90D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180E2EAD17115B80003C90D3 = {
+			isa = PBXGroup;
+			children = (
+				180E2EC217115B80003C90D3 /* 第一个iOS程序 */,
+				180E2EBB17115B80003C90D3 /* Frameworks */,
+				180E2EB917115B80003C90D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180E2EB917115B80003C90D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180E2EB817115B80003C90D3 /* 第一个iOS程序.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180E2EBB17115B80003C90D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180E2EBC17115B80003C90D3 /* UIKit.framework */,
+				180E2EBE17115B80003C90D3 /* Foundation.framework */,
+				180E2EC017115B80003C90D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180E2EC217115B80003C90D3 /* 第一个iOS程序 */ = {
+			isa = PBXGroup;
+			children = (
+				180E2ECB17115B80003C90D3 /* MJAppDelegate.h */,
+				180E2ECC17115B80003C90D3 /* MJAppDelegate.m */,
+				180E2ED417115B80003C90D3 /* MJViewController.h */,
+				180E2ED517115B80003C90D3 /* MJViewController.m */,
+				180E2ED717115B80003C90D3 /* MJViewController.xib */,
+				180E2EC317115B80003C90D3 /* Supporting Files */,
+			);
+			path = "第一个iOS程序";
+			sourceTree = "<group>";
+		};
+		180E2EC317115B80003C90D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180E2EC417115B80003C90D3 /* 第一个iOS程序-Info.plist */,
+				180E2EC517115B80003C90D3 /* InfoPlist.strings */,
+				180E2EC817115B80003C90D3 /* main.m */,
+				180E2ECA17115B80003C90D3 /* 第一个iOS程序-Prefix.pch */,
+				180E2ECE17115B80003C90D3 /* Default.png */,
+				180E2ED017115B80003C90D3 /* Default@2x.png */,
+				180E2ED217115B80003C90D3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180E2EB717115B80003C90D3 /* 第一个iOS程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180E2EDC17115B80003C90D3 /* Build configuration list for PBXNativeTarget "第一个iOS程序" */;
+			buildPhases = (
+				180E2EB417115B80003C90D3 /* Sources */,
+				180E2EB517115B80003C90D3 /* Frameworks */,
+				180E2EB617115B80003C90D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第一个iOS程序";
+			productName = "第一个iOS程序";
+			productReference = 180E2EB817115B80003C90D3 /* 第一个iOS程序.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180E2EAF17115B80003C90D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = itcast;
+			};
+			buildConfigurationList = 180E2EB217115B80003C90D3 /* Build configuration list for PBXProject "第一个iOS程序" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180E2EAD17115B80003C90D3;
+			productRefGroup = 180E2EB917115B80003C90D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180E2EB717115B80003C90D3 /* 第一个iOS程序 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180E2EB617115B80003C90D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E2EC717115B80003C90D3 /* InfoPlist.strings in Resources */,
+				180E2ECF17115B80003C90D3 /* Default.png in Resources */,
+				180E2ED117115B80003C90D3 /* Default@2x.png in Resources */,
+				180E2ED317115B80003C90D3 /* Default-568h@2x.png in Resources */,
+				180E2ED917115B80003C90D3 /* MJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180E2EB417115B80003C90D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E2EC917115B80003C90D3 /* main.m in Sources */,
+				180E2ECD17115B80003C90D3 /* MJAppDelegate.m in Sources */,
+				180E2ED617115B80003C90D3 /* MJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180E2EC517115B80003C90D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180E2EC617115B80003C90D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180E2ED717115B80003C90D3 /* MJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180E2ED817115B80003C90D3 /* en */,
+			);
+			name = MJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180E2EDA17115B80003C90D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180E2EDB17115B80003C90D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180E2EDD17115B80003C90D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "第一个iOS程序/第一个iOS程序-Prefix.pch";
+				INFOPLIST_FILE = "第一个iOS程序/第一个iOS程序-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180E2EDE17115B80003C90D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "第一个iOS程序/第一个iOS程序-Prefix.pch";
+				INFOPLIST_FILE = "第一个iOS程序/第一个iOS程序-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180E2EB217115B80003C90D3 /* Build configuration list for PBXProject "第一个iOS程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E2EDA17115B80003C90D3 /* Debug */,
+				180E2EDB17115B80003C90D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180E2EDC17115B80003C90D3 /* Build configuration list for PBXNativeTarget "第一个iOS程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E2EDD17115B80003C90D3 /* Debug */,
+				180E2EDE17115B80003C90D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180E2EAF17115B80003C90D3 /* Project object */;
+}

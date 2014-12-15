@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FBBD58170EB233008282FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FBBD57170EB233008282FA /* Foundation.framework */; };
+		18FBBD5B170EB233008282FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD5A170EB233008282FA /* main.m */; };
+		18FBBD5F170EB233008282FA /* Foundation5_NSMutableString.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18FBBD5E170EB233008282FA /* Foundation5_NSMutableString.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18FBBD51170EB233008282FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				18FBBD5F170EB233008282FA /* Foundation5_NSMutableString.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18FBBD53170EB233008282FA /* Foundation5-NSMutableString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Foundation5-NSMutableString"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBBD57170EB233008282FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FBBD5A170EB233008282FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FBBD5D170EB233008282FA /* Foundation5-NSMutableString-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foundation5-NSMutableString-Prefix.pch"; sourceTree = "<group>"; };
+		18FBBD5E170EB233008282FA /* Foundation5_NSMutableString.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Foundation5_NSMutableString.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBBD50170EB233008282FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBBD58170EB233008282FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBBD48170EB233008282FA = {
+			isa = PBXGroup;
+			children = (
+				18FBBD59170EB233008282FA /* Foundation5-NSMutableString */,
+				18FBBD56170EB233008282FA /* Frameworks */,
+				18FBBD54170EB233008282FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBBD54170EB233008282FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD53170EB233008282FA /* Foundation5-NSMutableString */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBBD56170EB233008282FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD57170EB233008282FA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FBBD59170EB233008282FA /* Foundation5-NSMutableString */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD5A170EB233008282FA /* main.m */,
+				18FBBD5E170EB233008282FA /* Foundation5_NSMutableString.1 */,
+				18FBBD5C170EB233008282FA /* Supporting Files */,
+			);
+			path = "Foundation5-NSMutableString";
+			sourceTree = "<group>";
+		};
+		18FBBD5C170EB233008282FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD5D170EB233008282FA /* Foundation5-NSMutableString-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FBBD52170EB233008282FA /* Foundation5-NSMutableString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBBD62170EB233008282FA /* Build configuration list for PBXNativeTarget "Foundation5-NSMutableString" */;
+			buildPhases = (
+				18FBBD4F170EB233008282FA /* Sources */,
+				18FBBD50170EB233008282FA /* Frameworks */,
+				18FBBD51170EB233008282FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foundation5-NSMutableString";
+			productName = "Foundation5-NSMutableString";
+			productReference = 18FBBD53170EB233008282FA /* Foundation5-NSMutableString */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBBD4A170EB233008282FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = itcast;
+			};
+			buildConfigurationList = 18FBBD4D170EB233008282FA /* Build configuration list for PBXProject "Foundation5-NSMutableString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FBBD48170EB233008282FA;
+			productRefGroup = 18FBBD54170EB233008282FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBBD52170EB233008282FA /* Foundation5-NSMutableString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBBD4F170EB233008282FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBBD5B170EB233008282FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FBBD60170EB233008282FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18FBBD61170EB233008282FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18FBBD63170EB233008282FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation5-NSMutableString/Foundation5-NSMutableString-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FBBD64170EB233008282FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation5-NSMutableString/Foundation5-NSMutableString-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBBD4D170EB233008282FA /* Build configuration list for PBXProject "Foundation5-NSMutableString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBBD60170EB233008282FA /* Debug */,
+				18FBBD61170EB233008282FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBBD62170EB233008282FA /* Build configuration list for PBXNativeTarget "Foundation5-NSMutableString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBBD63170EB233008282FA /* Debug */,
+				18FBBD64170EB233008282FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBBD4A170EB233008282FA /* Project object */;
+}

@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183949F0170D2660005F727F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183949EF170D2660005F727F /* Foundation.framework */; };
+		183949F3170D2660005F727F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183949F2170D2660005F727F /* main.m */; };
+		183949F7170D2660005F727F /* ____2__________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 183949F6170D2660005F727F /* ____2__________.1 */; };
+		183949FF170D266B005F727F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 183949FE170D266B005F727F /* Student.m */; };
+		18394A02170D2686005F727F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 18394A01170D2686005F727F /* Book.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		183949E9170D2660005F727F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				183949F7170D2660005F727F /* ____2__________.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		183949EB170D2660005F727F /* 内存管理2-对象之间的内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "内存管理2-对象之间的内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183949EF170D2660005F727F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183949F2170D2660005F727F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183949F5170D2660005F727F /* 内存管理2-对象之间的内存管理-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "内存管理2-对象之间的内存管理-Prefix.pch"; sourceTree = "<group>"; };
+		183949F6170D2660005F727F /* ____2__________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "____2__________.1"; sourceTree = "<group>"; };
+		183949FD170D266B005F727F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		183949FE170D266B005F727F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		18394A00170D2686005F727F /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		18394A01170D2686005F727F /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183949E8170D2660005F727F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183949F0170D2660005F727F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183949E0170D2660005F727F = {
+			isa = PBXGroup;
+			children = (
+				183949F1170D2660005F727F /* 内存管理2-对象之间的内存管理 */,
+				183949EE170D2660005F727F /* Frameworks */,
+				183949EC170D2660005F727F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183949EC170D2660005F727F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183949EB170D2660005F727F /* 内存管理2-对象之间的内存管理 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183949EE170D2660005F727F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183949EF170D2660005F727F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183949F1170D2660005F727F /* 内存管理2-对象之间的内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				183949F2170D2660005F727F /* main.m */,
+				183949F6170D2660005F727F /* ____2__________.1 */,
+				183949F4170D2660005F727F /* Supporting Files */,
+				183949FD170D266B005F727F /* Student.h */,
+				183949FE170D266B005F727F /* Student.m */,
+				18394A00170D2686005F727F /* Book.h */,
+				18394A01170D2686005F727F /* Book.m */,
+			);
+			path = "内存管理2-对象之间的内存管理";
+			sourceTree = "<group>";
+		};
+		183949F4170D2660005F727F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183949F5170D2660005F727F /* 内存管理2-对象之间的内存管理-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183949EA170D2660005F727F /* 内存管理2-对象之间的内存管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183949FA170D2660005F727F /* Build configuration list for PBXNativeTarget "内存管理2-对象之间的内存管理" */;
+			buildPhases = (
+				183949E7170D2660005F727F /* Sources */,
+				183949E8170D2660005F727F /* Frameworks */,
+				183949E9170D2660005F727F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "内存管理2-对象之间的内存管理";
+			productName = "内存管理2-对象之间的内存管理";
+			productReference = 183949EB170D2660005F727F /* 内存管理2-对象之间的内存管理 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183949E2170D2660005F727F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = itcast;
+			};
+			buildConfigurationList = 183949E5170D2660005F727F /* Build configuration list for PBXProject "内存管理2-对象之间的内存管理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183949E0170D2660005F727F;
+			productRefGroup = 183949EC170D2660005F727F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183949EA170D2660005F727F /* 内存管理2-对象之间的内存管理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183949E7170D2660005F727F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183949F3170D2660005F727F /* main.m in Sources */,
+				183949FF170D266B005F727F /* Student.m in Sources */,
+				18394A02170D2686005F727F /* Book.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		183949F8170D2660005F727F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		183949F9170D2660005F727F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		183949FB170D2660005F727F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "内存管理2-对象之间的内存管理/内存管理2-对象之间的内存管理-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183949FC170D2660005F727F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "内存管理2-对象之间的内存管理/内存管理2-对象之间的内存管理-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183949E5170D2660005F727F /* Build configuration list for PBXProject "内存管理2-对象之间的内存管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183949F8170D2660005F727F /* Debug */,
+				183949F9170D2660005F727F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183949FA170D2660005F727F /* Build configuration list for PBXNativeTarget "内存管理2-对象之间的内存管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183949FB170D2660005F727F /* Debug */,
+				183949FC170D2660005F727F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183949E2170D2660005F727F /* Project object */;
+}

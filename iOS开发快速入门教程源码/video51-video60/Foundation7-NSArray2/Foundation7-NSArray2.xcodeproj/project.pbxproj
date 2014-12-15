@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FBBD95170EC4BD008282FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FBBD94170EC4BD008282FA /* Foundation.framework */; };
+		18FBBD98170EC4BD008282FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBD97170EC4BD008282FA /* main.m */; };
+		18FBBD9C170EC4BD008282FA /* Foundation7_NSArray2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18FBBD9B170EC4BD008282FA /* Foundation7_NSArray2.1 */; };
+		18FBBDA4170EC8E8008282FA /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBDA3170EC8E8008282FA /* Student.m */; };
+		18FBBDA7170ECC2C008282FA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBBDA6170ECC2C008282FA /* Book.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18FBBD8E170EC4BD008282FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				18FBBD9C170EC4BD008282FA /* Foundation7_NSArray2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18FBBD90170EC4BD008282FA /* Foundation7-NSArray2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Foundation7-NSArray2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBBD94170EC4BD008282FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FBBD97170EC4BD008282FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FBBD9A170EC4BD008282FA /* Foundation7-NSArray2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foundation7-NSArray2-Prefix.pch"; sourceTree = "<group>"; };
+		18FBBD9B170EC4BD008282FA /* Foundation7_NSArray2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Foundation7_NSArray2.1; sourceTree = "<group>"; };
+		18FBBDA2170EC8E8008282FA /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		18FBBDA3170EC8E8008282FA /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		18FBBDA5170ECC2C008282FA /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		18FBBDA6170ECC2C008282FA /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBBD8D170EC4BD008282FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBBD95170EC4BD008282FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBBD85170EC4BD008282FA = {
+			isa = PBXGroup;
+			children = (
+				18FBBD96170EC4BD008282FA /* Foundation7-NSArray2 */,
+				18FBBD93170EC4BD008282FA /* Frameworks */,
+				18FBBD91170EC4BD008282FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBBD91170EC4BD008282FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD90170EC4BD008282FA /* Foundation7-NSArray2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBBD93170EC4BD008282FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD94170EC4BD008282FA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FBBD96170EC4BD008282FA /* Foundation7-NSArray2 */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD97170EC4BD008282FA /* main.m */,
+				18FBBD9B170EC4BD008282FA /* Foundation7_NSArray2.1 */,
+				18FBBD99170EC4BD008282FA /* Supporting Files */,
+				18FBBDA2170EC8E8008282FA /* Student.h */,
+				18FBBDA3170EC8E8008282FA /* Student.m */,
+				18FBBDA5170ECC2C008282FA /* Book.h */,
+				18FBBDA6170ECC2C008282FA /* Book.m */,
+			);
+			path = "Foundation7-NSArray2";
+			sourceTree = "<group>";
+		};
+		18FBBD99170EC4BD008282FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FBBD9A170EC4BD008282FA /* Foundation7-NSArray2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FBBD8F170EC4BD008282FA /* Foundation7-NSArray2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBBD9F170EC4BD008282FA /* Build configuration list for PBXNativeTarget "Foundation7-NSArray2" */;
+			buildPhases = (
+				18FBBD8C170EC4BD008282FA /* Sources */,
+				18FBBD8D170EC4BD008282FA /* Frameworks */,
+				18FBBD8E170EC4BD008282FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foundation7-NSArray2";
+			productName = "Foundation7-NSArray2";
+			productReference = 18FBBD90170EC4BD008282FA /* Foundation7-NSArray2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBBD87170EC4BD008282FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = itcast;
+			};
+			buildConfigurationList = 18FBBD8A170EC4BD008282FA /* Build configuration list for PBXProject "Foundation7-NSArray2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FBBD85170EC4BD008282FA;
+			productRefGroup = 18FBBD91170EC4BD008282FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBBD8F170EC4BD008282FA /* Foundation7-NSArray2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBBD8C170EC4BD008282FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBBD98170EC4BD008282FA /* main.m in Sources */,
+				18FBBDA4170EC8E8008282FA /* Student.m in Sources */,
+				18FBBDA7170ECC2C008282FA /* Book.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FBBD9D170EC4BD008282FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18FBBD9E170EC4BD008282FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18FBBDA0170EC4BD008282FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation7-NSArray2/Foundation7-NSArray2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FBBDA1170EC4BD008282FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation7-NSArray2/Foundation7-NSArray2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBBD8A170EC4BD008282FA /* Build configuration list for PBXProject "Foundation7-NSArray2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBBD9D170EC4BD008282FA /* Debug */,
+				18FBBD9E170EC4BD008282FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBBD9F170EC4BD008282FA /* Build configuration list for PBXNativeTarget "Foundation7-NSArray2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBBDA0170EC4BD008282FA /* Debug */,
+				18FBBDA1170EC4BD008282FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBBD87170EC4BD008282FA /* Project object */;
+}

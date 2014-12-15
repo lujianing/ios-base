@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Foundation12-NSValue' target in the 'Foundation12-NSValue' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

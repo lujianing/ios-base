@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Foundation5-NSMutableString' target in the 'Foundation5-NSMutableString' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

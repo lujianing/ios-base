@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183912E61703D7E400BBEB1F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 183912E51703D7E400BBEB1F /* main.c */; };
+		183912E81703D7E400BBEB1F /* extern___.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 183912E71703D7E400BBEB1F /* extern___.1 */; };
+		183912EF1703D7FA00BBEB1F /* one.c in Sources */ = {isa = PBXBuildFile; fileRef = 183912EE1703D7FA00BBEB1F /* one.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		183912DF1703D7E400BBEB1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				183912E81703D7E400BBEB1F /* extern___.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		183912E11703D7E400BBEB1F /* static与函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "static与函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183912E51703D7E400BBEB1F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		183912E71703D7E400BBEB1F /* extern___.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "extern___.1"; sourceTree = "<group>"; };
+		183912EE1703D7FA00BBEB1F /* one.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = one.c; sourceTree = "<group>"; };
+		183912F01703D9F000BBEB1F /* one.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183912DE1703D7E400BBEB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183912D61703D7E400BBEB1F = {
+			isa = PBXGroup;
+			children = (
+				183912E41703D7E400BBEB1F /* static与函数 */,
+				183912E21703D7E400BBEB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183912E21703D7E400BBEB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183912E11703D7E400BBEB1F /* static与函数 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183912E41703D7E400BBEB1F /* static与函数 */ = {
+			isa = PBXGroup;
+			children = (
+				183912E51703D7E400BBEB1F /* main.c */,
+				183912E71703D7E400BBEB1F /* extern___.1 */,
+				183912EE1703D7FA00BBEB1F /* one.c */,
+				183912F01703D9F000BBEB1F /* one.h */,
+			);
+			name = "static与函数";
+			path = "extern与函数";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183912E01703D7E400BBEB1F /* static与函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183912EB1703D7E400BBEB1F /* Build configuration list for PBXNativeTarget "static与函数" */;
+			buildPhases = (
+				183912DD1703D7E400BBEB1F /* Sources */,
+				183912DE1703D7E400BBEB1F /* Frameworks */,
+				183912DF1703D7E400BBEB1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "static与函数";
+			productName = "extern与函数";
+			productReference = 183912E11703D7E400BBEB1F /* static与函数 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183912D81703D7E400BBEB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = itcast;
+			};
+			buildConfigurationList = 183912DB1703D7E400BBEB1F /* Build configuration list for PBXProject "static与函数" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183912D61703D7E400BBEB1F;
+			productRefGroup = 183912E21703D7E400BBEB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183912E01703D7E400BBEB1F /* static与函数 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183912DD1703D7E400BBEB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183912E61703D7E400BBEB1F /* main.c in Sources */,
+				183912EF1703D7FA00BBEB1F /* one.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		183912E91703D7E400BBEB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		183912EA1703D7E400BBEB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		183912EC1703D7E400BBEB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "static与函数";
+			};
+			name = Debug;
+		};
+		183912ED1703D7E400BBEB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "static与函数";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183912DB1703D7E400BBEB1F /* Build configuration list for PBXProject "static与函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183912E91703D7E400BBEB1F /* Debug */,
+				183912EA1703D7E400BBEB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183912EB1703D7E400BBEB1F /* Build configuration list for PBXNativeTarget "static与函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183912EC1703D7E400BBEB1F /* Debug */,
+				183912ED1703D7E400BBEB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183912D81703D7E400BBEB1F /* Project object */;
+}

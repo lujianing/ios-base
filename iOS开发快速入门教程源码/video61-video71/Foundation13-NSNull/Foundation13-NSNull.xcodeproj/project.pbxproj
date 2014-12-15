@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180E2E3D17111846003C90D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180E2E3C17111846003C90D3 /* Foundation.framework */; };
+		180E2E4017111846003C90D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E2E3F17111846003C90D3 /* main.m */; };
+		180E2E4417111846003C90D3 /* Foundation13_NSNull.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 180E2E4317111846003C90D3 /* Foundation13_NSNull.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		180E2E3617111846003C90D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				180E2E4417111846003C90D3 /* Foundation13_NSNull.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180E2E3817111846003C90D3 /* Foundation13-NSNull */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Foundation13-NSNull"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180E2E3C17111846003C90D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180E2E3F17111846003C90D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180E2E4217111846003C90D3 /* Foundation13-NSNull-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foundation13-NSNull-Prefix.pch"; sourceTree = "<group>"; };
+		180E2E4317111846003C90D3 /* Foundation13_NSNull.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Foundation13_NSNull.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180E2E3517111846003C90D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E2E3D17111846003C90D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180E2E2D17111846003C90D3 = {
+			isa = PBXGroup;
+			children = (
+				180E2E3E17111846003C90D3 /* Foundation13-NSNull */,
+				180E2E3B17111846003C90D3 /* Frameworks */,
+				180E2E3917111846003C90D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180E2E3917111846003C90D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180E2E3817111846003C90D3 /* Foundation13-NSNull */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180E2E3B17111846003C90D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180E2E3C17111846003C90D3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180E2E3E17111846003C90D3 /* Foundation13-NSNull */ = {
+			isa = PBXGroup;
+			children = (
+				180E2E3F17111846003C90D3 /* main.m */,
+				180E2E4317111846003C90D3 /* Foundation13_NSNull.1 */,
+				180E2E4117111846003C90D3 /* Supporting Files */,
+			);
+			path = "Foundation13-NSNull";
+			sourceTree = "<group>";
+		};
+		180E2E4117111846003C90D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180E2E4217111846003C90D3 /* Foundation13-NSNull-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180E2E3717111846003C90D3 /* Foundation13-NSNull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180E2E4717111846003C90D3 /* Build configuration list for PBXNativeTarget "Foundation13-NSNull" */;
+			buildPhases = (
+				180E2E3417111846003C90D3 /* Sources */,
+				180E2E3517111846003C90D3 /* Frameworks */,
+				180E2E3617111846003C90D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foundation13-NSNull";
+			productName = "Foundation13-NSNull";
+			productReference = 180E2E3817111846003C90D3 /* Foundation13-NSNull */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180E2E2F17111846003C90D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = itcast;
+			};
+			buildConfigurationList = 180E2E3217111846003C90D3 /* Build configuration list for PBXProject "Foundation13-NSNull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180E2E2D17111846003C90D3;
+			productRefGroup = 180E2E3917111846003C90D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180E2E3717111846003C90D3 /* Foundation13-NSNull */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180E2E3417111846003C90D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E2E4017111846003C90D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		180E2E4517111846003C90D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		180E2E4617111846003C90D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		180E2E4817111846003C90D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation13-NSNull/Foundation13-NSNull-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180E2E4917111846003C90D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foundation13-NSNull/Foundation13-NSNull-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180E2E3217111846003C90D3 /* Build configuration list for PBXProject "Foundation13-NSNull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E2E4517111846003C90D3 /* Debug */,
+				180E2E4617111846003C90D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180E2E4717111846003C90D3 /* Build configuration list for PBXNativeTarget "Foundation13-NSNull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180E2E4817111846003C90D3 /* Debug */,
+				180E2E4917111846003C90D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180E2E2F17111846003C90D3 /* Project object */;
+}
